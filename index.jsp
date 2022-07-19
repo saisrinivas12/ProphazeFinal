@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Decode</title>
 </head>
 
 <script>
@@ -21,11 +21,11 @@ out.println(val);
 }
 
 %>
-<h1> Form for registration</h1>
+<h1> Enter the encoded Value</h1>
 <form  action="Servlet" method="post" >
 User:<input type="text" name="encodedvalue" id="encodedvalue" >
 
-<input type ="submit" value="click me"  >
+<input type ="submit" value="Decode"  >
 
 
 </form>
